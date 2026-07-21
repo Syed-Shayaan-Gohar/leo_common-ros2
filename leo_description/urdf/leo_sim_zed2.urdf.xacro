@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<robot name="leo" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:include filename="$(find leo_description)/urdf/macros.xacro"/>
+  <xacro:include filename="$(find leo_description)/urdf/sensor_mounts.xacro"/>
+
+  <xacro:leo_sim/>
+  <xacro:zed2_mount/>
+
+</robot>
