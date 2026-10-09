@@ -104,12 +104,12 @@
 
     <link name="${link_prefix}base_link">
       <inertial>
-        <mass value="1.584994"/>
+        <mass value="2.590"/>
         <origin xyz="-0.019662 0.011643 -0.031802"/>
         <inertia
-          ixx="0.01042" ixy="0.001177" ixz="-0.0008871"
-          iyy="0.01045" iyz="0.0002226"
-          izz="0.01817"/>
+          ixx="0.01703" ixy="0.001923" ixz="-0.001449"
+          iyy="0.01708" iyz="0.0003637"
+          izz="0.02969"/>
       </inertial>
       <visual>
         <geometry>
